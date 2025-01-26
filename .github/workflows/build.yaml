@@ -1,5 +1,6 @@
 name: resource-build-actions
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
